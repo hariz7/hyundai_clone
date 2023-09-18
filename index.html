@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="discription"
+      content="cloning the responsive hyundai website using html,css,bootstrap and javascript"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Haris" />
+    <meta name="keyword" content="cloning,hyundai,bootstrap,responsive" />
+    <title>Hyundai</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="icon"
+      href="https://www.hyundai.com/etc/designs/hyundai/in/en/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class=" navbar-brand fw-bold  me-auto" href="#" style="color: #002c5e;">
+            <img src="https://www.hyundai.com/etc/designs/hyundai/in/en/images/common/ico-logo-m.png" alt="hyundai"
+              class=" me-2" width="35" height="18">Hyundai
+          </a>
+          <div class="col-1 d-md-none">
+            <a class=" " href="#"><img
+                src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/ico-user-20-x-20@1x.png" alt="user"
+                width="20" height="20"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+            <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link me-md-5 ms-md-5 c-nav " aria-current="page" href="#">Find a Car</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  me-5 c-nav" href="#">Cl!ck to Buy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5 c-nav" href="#">Hyundai Srory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5 c-nav" href="#">Mobility Solutions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-5 c-nav" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-3 d-none d-md-block" href="#"><img
+                    src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/ico-user-20-x-20@1x.png"
+                    alt="user" width="20" height="20"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-2 d-none d-md-block" href="#"><img
+                    src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/ico_find_a_dealer_20x20.png"
+                    alt="loc" width="20" height="20"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-2 d-none d-md-block" href="#"><img
+                    src="https://www.hyundai.com/etc/designs/hyundai/in/en/images/common/ico-social-20-x-20.png"
+                    alt="share" width="20" height="20"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link d-none d-md-block" href="#"><img
+                    src="https://www.hyundai.com/etc/designs/hyundai/in/en/images/common/ico-search-20-x-20.png"
+                    alt="search" width="20" height="20"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid pt-5 ps-4 pe-4">
+      <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner c-head">
+          <div class="carousel-item   ">
+  
+            <picture class="c-item position-relative">
+  
+              <source media="(min-width: 768px) and (max-width:1023px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exter_home_orignal_tab.jpg">
+  
+  
+              <source media="(max-width: 767px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exter_home_orignal_mob.jpg">
+  
+              <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Exter/exter_home_orignal_pc.jpg"
+                alt="Hyundai Exter with Hardik" class="w-100">
+            </picture>
+            <div class="btn btn-primary c-btn1 rounded-0 position-absolute ">
+              Know More
+            </div>
+            <div class="btn btn-primary c-btn2 rounded-0 position-absolute ">
+              Click TO Buy
+            </div>
+          </div>
+  
+  
+          <div class="carousel-item  active">
+  
+  
+            <picture>
+  
+              <source media="(min-width: 768px) and (max-width:1023px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Highlights/March/homepage-verna-tab.jpg">
+  
+  
+              <source media="(max-width: 767px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Highlights/March/homepage-verna-mobile.jpg">
+  
+              <img
+                src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Verna/Highlights/March/homepage-verna-pc.jpg"
+                alt="Know more about Hyundai VERNA" class="w-100">
+            </picture>
+            <div class="btn btn-primary c-btn1 rounded-0 position-absolute ">
+              Know More
+            </div>
+            <div class="btn btn-primary c-btn2 rounded-0 position-absolute ">
+              Book Now
+            </div>
+  
+          </div>
+  
+  
+  
+          <div class="carousel-item ">
+            <picture>
+  
+              <source media="(min-width: 768px) and (max-width:1023px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Alcazar/Highlights/pc/alcazarhome_orignal_tab.jpg">
+  
+  
+              <source media="(max-width: 767px)"
+                srcset="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Alcazar/Highlights/pc/alcazarhome_orignal_mobile.jpg">
+  
+              <img
+                src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Alcazar/Highlights/pc/alcazarhome_orignal_pc.jpg"
+                alt="Hyundai Alcazar in front of palace" class="w-100">
+  
+            </picture>
+            <div class="btn btn-primary c-btn1 rounded-0 position-absolute ">
+              Know More
+            </div>
+  
+          </div>
+  
+        </div>
+  
+  
+        <button class="carousel-control-prev mt-5" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next mt-5  c-control" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+  
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand navbar-custom navbar-dark fs-1rem mt-2" id="navbar_top">
+      <div class="container-fluid">
+       
+        
+        <div class="collapse navbar-collapse justify-content-evenly flex-grow-1">
+          <ul class="navbar-nav nav-fill w-100 ">
+            <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="#"><i class="fa-solid fa-location-dot"></i>
+                Find a Dealer
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-user">
+
+                </i>
+                Request a Test Drive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-file"></i>
+                Prize</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Click to Buy</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="container-fluid mt-5">
+      <div class="row justify-content-center mb-5">
+        <div class="col-2 fs-1">
+          <h1 class="fw-bold">Models</h>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5 col-lg-4 d-none d-md-block">
+          <div class="action">
+            <a href="#" data-slide="0" class="ms-5 me-2">All</a>
+            <a href="#" data-slide="0" class="me-2">Electric</a>
+            <a href="#" data-slide="2" class="me-2">Hatchback</a>
+            <a href="#" data-slide="4" class="me-2">SUV</a>
+            <!-- Add more links with corresponding data-slide attribute for additional slides -->
+          </div>
+        </div>
+        <div class="col-12 d-md-none ">
+          <select class="form-select form-select-lg mb-3 " aria-label="Large select example" id="carSelect">
+            <option value="4" class="action"> SUV</option>
+            <option value="2" class="action">Hatchback </option>
+            <option value="0" class="action" selected> Electric </option>
+          </select>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators2" class="carousel slide">
+        <div class="carousel-indicators ind position-absolute">
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active c-btn"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" class="c-btn"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" class="c-btn"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" class="c-btn"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" class="c-btn"
+            aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" class="c-btn"
+            aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item sec active">
+            <img src=" image/elec.png" class="d-block w-100" alt="elec">
+          </div>
+          <div class="carousel-item sec">
+            <img src=" image/electric.png" class="d-block w-100" alt="elec">
+          </div>
+          <div class="carousel-item sec">
+            <img src=" image/hatch.png" class="d-block w-100" alt="htc">
+          </div>
+          <div class="carousel-item sec">
+            <img src=" image/htc.png" class="d-block w-100" alt="htc">
+          </div>
+          <div class="carousel-item sec">
+            <img src=" image/suv.png" class="d-block w-100" alt="suv">
+          </div>
+          <div class="carousel-item sec">
+            <img src=" image/svu.png" class="d-block w-100" alt="suv">
+          </div>
+        </div>
+        <div class="btn3 mb-5">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="prev">
+            <i class="fa fa-chevron-left chevronArrow " style="color: black;font-size: 28px;"></i>
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="next">
+            <i class="fa fa-chevron-right chevronArrow " style="color: black; font-size: 28px;"></i>
+            <!-- <span class="c-arrow1" aria-hidden="true"></span> -->
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+  
+      <div class="row mt-5">
+        <div class="col-lg-3 col-6  mt-lg-5 mb-lg-5 mb-1">
+          <button class="btn btn4 rounded-0 btn-secondary w-100"> Request a test Drive</button>
+        </div>
+        <div class="col-6 col-lg-3 mt-lg-5 mb-lg-5 mb-1">
+          <button class="btn btn4 rounded-0 btn-secondary w-100 h-100"> Download E-Brochure</button>
+        </div>
+        <div class="col-6 col-lg-3 mt-lg-5 mb-lg-5 mb-5">
+          <button class="btn btn4 rounded-0 btn-secondary w-100 h-100"> Click To Buy</button>
+        </div>
+        <div class="col-6 col-lg-3 mt-lg-5 mb-lg-5 mb-5">
+          <button class="btn btn4 rounded-0 btn-secondary w-100 h-100"> Prices</button>
+        </div>
+      </div>
+  
+  
+      <div class="row me-0">
+        <div class="col c-sec pt-3 ">
+          <h4>WHATS NEW</h4>
+          <h5>See What's happening</h5>
+        </div>
+      </div>
+      <div class="row    justify-content-evenly me-0 ">
+        <div class="col-lg-4 ms-0 col-md-5 col-10 c-pointer">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/tucsonnew_1.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer ">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/travelblog_3.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/metaverse.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer">
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/Drive-within/The-drive-within.jpg"
+            alt="image" class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+        <div class="col-lg-3 col-10  col-md-5 c-pointer">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/cespc.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <p class="mb-0">BRAND</p>
+          <h6>From Bean to cup</h6>
+        </div>
+      </div>
+      <div class="row me-0">
+        <div class="col  mt-5 mb-5 pt-5  ps-4 me-0" style="height: 200px;background: #002c5f;color: white; ">
+          <h4>Social</h4>
+          <h2>Check out what’s trending</h2>
+        </div>
+      </div>
+      <div class="row    justify-content-evenly me-0 ">
+        <div class="col-lg-4 ms-0 col-md-5 col-10 c-pointer position-relative">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/tucsonnew_1.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+  
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+  
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer position-relative ">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/travelblog_3.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer position-relative">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/metaverse.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer position-relative">
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/Drive-within/The-drive-within.jpg"
+            alt="image" class="img-fluid" style="object-fit: cover;">
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+        </div>
+        <div class="col-lg-3 col-10 col-md-5 c-pointer position-relative">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/namaste.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+        </div>
+        <div class="col-lg-3 col-10  col-md-5 c-pointer position-relative">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/Proposed-homepage/cespc.jpg" alt="image"
+            class="img-fluid" style="object-fit: cover;">
+          <img src="image/Screenshot 2023-07-27 190540.png" class="c-img">
+        </div>
+      </div>
+      <div class="row text-center p-5">
+        <div class="col-lg-12">
+          <h3 class="pt-5">Find a Dealer & Website</h3>
+        </div>
+        <div class="col-lg-12">
+          <h6 class="pb-5">Locate your nearest dealership and visit website</h6>
+        </div>
+      </div>
+      <div class="row ps-5 pe-5 justify-content-center">
+        <div class="col-lg-3 col-12">
+          <select class="form-select  mb-3">
+            <option value="select Dealership">select Dealership</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-12">
+          <select class="form-select  mb-3">
+            <option value="select Dealership">select Dealership</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-12">
+          <select class="form-select  mb-3">
+            <option value="select Dealership">select Dealership</option>
+          </select>
+        </div>
+        <div class="col-lg-3 col-12">
+          <select class="form-select  mb-3">
+            <option value="select Dealership">select Dealership</option>
+          </select>
+        </div>
+        <div class="col-12 text-center ">
+          <button class="btn btn-primary  rounded-0 ">SEARCH</button>
+        </div>
+  
+      </div>
+      <div class="row justify-content-end">
+        <button type="button" class="col-1 btn btn-secondary rounded-0 btn-floating " id="btn-back-to-top">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+      <div class="row bg-secondary  pt-2 pb-5">
+  
+        <div class="col-md-2 ps-5 pt-3 ">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/common/footer_logo_pc.png" alt="image">
+        </div>
+        <div class="col-md-7 col-2 foot  ms-lg-2 d-none d-md-block">
+          <ul>
+            <li>Worldwide</li>
+            <li>Contact Us</li>
+            <li>Legal Disclaimer</li>
+            <li>Sitemap</li>
+            <li>Hyundai Suppliers</li>
+            <li>Dealer Application</li>
+          </ul>
+          <!-- <p  style="font-size: 10px;">Copyright 2023 Hyundai Motor India. All Rights Reserved.</p> -->
+        </div>
+        <div class="col-md-7 col-2 foot size ms-lg-2 d-md-none">
+          <ul>
+            <li>Worldwide</li>
+            <li>Contact Us</li>
+            <li>Legal Disclaimer</li>
+            <li>Sitemap</li>
+            <li>Hyundai Suppliers</li>
+            <li>Dealer Application</li>
+          </ul>
+        </div>
+        <p style="font-size: 10px;" class="col-md-7  text-center">©Copyright 2023 Hyundai Motor India. All Rights
+          Reserved.</p>
+        <div class="col-md-2 foot1">
+          <ul>
+            <li><i class="fab fa-facebook fa-sm"></i></li>
+            <li><i class="fab fa-youtube fa-sm"></i> </li>
+            <li><i class="fab fa-twitter fa-sm"></i> </li>
+            <li><i class="fab fa-linkedin fa-sm"></i> </li>
+            <li><i class="fab fa-instagram fa-sm"></i> </li>
+            <li><i class="fab fa-whatsapp fa-sm"></i> </li>
+          </ul>
+        </div>
+  
+      </div>
+      
+  
+  
+  
+  
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
